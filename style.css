@@ -188,6 +188,11 @@ h1{
     margin-bottom: 1rem;
 }
 
+#words p{
+    font-size: 1rem;
+   
+}
+
 #blue_button{
    width: 155px;
    margin-left: 1rem;
