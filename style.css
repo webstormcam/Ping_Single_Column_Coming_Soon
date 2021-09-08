@@ -104,7 +104,12 @@ footer{
 
 .social{
     width: 15px;
+    border-radius: 1rem;
     
+}
+
+.social:hover{
+    background-color: yellow;
 }
 
 #icons{
@@ -121,6 +126,10 @@ footer{
 }
 
 .bad{
+    display: none;
+}
+
+.bad2{
     display: none;
 }
 
