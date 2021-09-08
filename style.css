@@ -120,10 +120,18 @@ footer{
     color: hsl(0, 0%, 59%);
 }
 
+.bad{
+    display: none;
+}
+
 @media screen and (min-width:1024px){
 form{
     flex-direction: row;
     justify-content: center;
+}
+
+.logo{
+    width: 70px;
 }
 
 #ping_column{
@@ -131,6 +139,10 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
 }
 
 #email{
